@@ -1,0 +1,140 @@
+<!DOCTYPE html>    <!-- khai báo loại tài liệu: html-->
+<html>              <!-- một file tài liệu thì chỉ có duy nhất một cặp thẻ html -->
+<!-- Thẻ thông dụng trong html
+            1. h1->h6 heading
+            2. p paragraph
+            3. img image
+            4. a anchor mỏ neo dẫn đường link
+            5. ul, li unordered list, list item
+            6. table
+            7. input
+            8. button
+            9. div          -->
+
+    <!-- phần đầu head -->
+    <div>
+        <head>
+            <title>Báo lá cải</title>      <!--Title tiêu đề của web-->
+            <meta charset="utf-8">      <!--sử dụng để gõ và hiển thị tiếng việt-->
+            <link rel="stylesheet" href="main.css">
+            <!-- <style>
+                h1
+                {
+                    color: red;
+                    font-size: 30px;
+                }
+                h2
+                {
+                    color: teal;
+                }
+            </style> -->
+
+        </head>
+        <!--phần thân body-->
+        <body>
+            <script>
+                document.writeln('Hello world')
+                console.log('Helloooooo')
+                let ten= 'Tu'
+                document.writeln(ten)
+            </script>
+
+
+            <h1 id="tieu_de" style="border: 1 px red;">Học CSS cùng Cpp</h1>
+            <h2 onclick="abcd">Search</h2>
+            <!-- thẻ input -->
+            <div>
+                <label for="">Tên của bạn là gì?   </label>
+                <input type="text" placeholder="Đỗ Anh Tú">
+            </div>
+            <div>
+                <label for="">Bạn đã học C++ chưa?</label>
+                <select name="" id="">
+                    <option value="">Đã học ở trường</option>
+                    <option value="">Chưa được học</option>
+                    <option value="">Sắp được học</option>
+                </select>
+            </div>
+    
+            <!-- check -->
+            <div>
+                <input type="checkbox" name="abcd" id="1">
+                <input type="checkbox" name="abcd" id="2">
+                <input type="checkbox" name="abcd" id="3">
+            </div>
+            <div>
+                <input type="radio" name="abcd" id="1">
+                <input type="radio" name="abcd" id="2">
+                <input type="radio" name="abcd" id="3">
+            </div>
+            
+            <div>
+                <!-- button- nút -->
+                <button>Đăng ký</button>
+            </div>
+            
+    
+            <h1 title="1 nước ở Đông Nam Á">Singapre dừng thông báo số ca COVID-19 hằng ngày từ hôm nay 7-12</h1>
+            <img src="https://cdn.tuoitre.vn/zoom/504_315/2021/12/7/singapore-16388691001021390411233-crop-1638869112803420004084.jpeg" alt="Singapore">
+            <p>Bộ Y tế Singapore cho biết sẽ ngừng phát thông cáo báo chí hằng ngày cung cấp các số liệu thống kê về COVID-19 kể từ hôm nay (7-12), trong bối cảnh số ca mắc biến thể Delta giảm đi ở nước này.
+                Tuy nhiên, công chúng vẫn có thể tiếp tục tiếp cận một số thông tin trên trang web của Bộ Y tế Singapore. Các thông tin này gồm tình hình COVID-19 trong cộng đồng, công suất bệnh viện, tình trạng của bệnh nhân, cũng như tiến độ tiêm chủng và số ca mắc COVID-19.</p>
+            
+            <h2>Chứng khoán đảo chiều tăng mạnh, nhiều người vẫn chưa dám xuống tiền</h2>
+            <img src="https://cdn.tuoitre.vn/zoom/170_106/2021/12/7/e35e8c3d-6d7c-423d-852d-7d91b29ef8fe-1369-0000009e41283b6d-16388644833951608639251-crop-1638870079372620375478.jpg" alt="">
+            <p>Hai cú sụp vừa qua khiến giới đầu tư chứng khoán không khỏi lo lắng, tuy nhiên sang phiên giao dịch hôm nay 7-12 tình thế đã đảo ngược, sắc xanh lan tỏa trên toàn thị trường ngay từ lúc khởi đầu và kéo dài đến cuối phiên. </p>
+    
+            <h2 id="h2_student">Học sinh lớp 12 Hà Nội trở lại trường học</h2>
+            <p>Ghi nhận của Tuổi Trẻ Online tại Trường THPT Việt Đức (quận Hoàn Kiếm, Hà Nội), sau hơn 7 tháng nghỉ học, nhiều học sinh đến trường từ sớm để sẵn sàng cho những tiết học trực tiếp đầu tiên.</p>
+             
+            <!-- thẻ ảnh -->
+            <img width="500", src="https://cdn.tuoitre.vn/2021/12/6/logo-hoc-sinh-1-16387594121351468987616.jpg" alt="Trường THPT Việt Đức">
+            <div>
+                <!-- thẻ liên kết -->
+                <a href="https://tuoitre.vn/">Báo Tuổi Trẻ</a>
+            </div>
+            
+    
+            <h3 class="h3_a">Khởi tố và bắt giam tổng giám đốc công ty CP đầu tư phát triển nhà Đà Nẵng</h3>
+            <h3 class="h3_a">Hà Nội trả 2 lô vắc xin Pfizer được tăng hạn sử dụng</h3>
+            <h3 class="h3_a">Những ai được tăng lương hưu từ ngày 01-01-2022?</h3>
+            <!-- thẻ danh sách -->
+            <ul>
+                <li>Thứ 2</li>
+                <li>Thứ 3</li>
+                <li>Thứ 4</li>
+                <li>Thứ 5</li>
+                <li>Thứ 6</li>
+                <li>Thứ 7</li>
+            </ul>
+    
+            <!-- thẻ table --> 
+            <table>
+                <thead>
+                    <th>STT</th>
+                    <th>Tên</th>
+                    <th>Địa chỉ</th>
+                </thead>
+    
+                <tbody>
+                    <!-- mỗi tr là 1 dòng. số td ứng với th -->
+                    <tr>    
+                        <td style="color: red;">1</td>
+                        <td>Đỗ Anh Tú</td>
+                        <td>Quỳnh Phụ</td>
+                    </tr>
+                    <tr>
+                        <td style="color: red;">2</td>
+                        <td>Vân Anh</td>
+                        <td>Đông Hưng</td>
+                    </tr>
+                </tbody>
+            </table>
+        <div id="buttom">Xin chào các bạn!</div>
+            
+    </div>
+    
+            <!-- Mình là Tú đây -->
+    </body>
+</html>
+<!-- ctrl+/ để sử dụng cmt -->
+<!-- <br/> dùng để xuống dòng -->
